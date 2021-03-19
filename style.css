@@ -234,49 +234,20 @@ section:nth-child(2n + 1) {
 /* Skill display1 */
 
 /* for Protfolio Section */
-#portfolio-container {
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 50px;
-    margin-bottom: 20px;
-    justify-content: space-around;
-}
 
-.portfolio-image-container {
-    max-width: 400px;
-    /* max-height:500px; */
-    overflow: hidden;
-    margin: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.portfolio-image-container img {
+.col-container {
+    display: table;
     width: 100%;
-    height: 100%;
-}
-
-.portfolio-details {
-    transition: all 0.5s ease-in-out;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    color: transparent;
-    text-align: center;
-    padding: 10px;
-}
-
-.portfolio-image-container:hover {
-    box-shadow: 0 0 20px #74ADC8;
-}
-
-.portfolio-image-container:hover .portfolio-details {
-    background-color: #80808078;
-    color: white;
-}
+    margin: auto;
+  }
+  .col {
+    display: table-cell;
+    padding: 16px;
+    margin: 10px;
+  }
+  .col h2{
+      color: #403066;
+  }
 
 
 /* Contact Section  */
