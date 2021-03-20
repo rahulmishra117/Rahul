@@ -244,9 +244,10 @@ section:nth-child(2n + 1) {
     display: table-cell;
     padding: 16px;
     margin: 10px;
+    border-radius: 20%;
   }
   .col h2{
-      color: #403066;
+      color: #2d2936;
   }
 
 
